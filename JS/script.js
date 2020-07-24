@@ -36,5 +36,5 @@ function openTab(event, tab) {
 };
 
 function notWorking(){
-  window.open("https://www.yotube.com/watch?v=dQw4w9WgXcQ");
+  window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 }
