@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <title>Welcome to my website! | fraterivan.tk</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+        <link rel="stylesheet" href="/CSS/styles.css">
+        <link rel="stylesheet" href="/CSS/XP.css">
+    </head>
+
+    <body>
+        <div id="center">
+          <div class="window" style="width: 400px">
+            <div class="title-bar">
+              <div class="title-bar-text">Welcome to my website!</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize" onclick="notWorking()"></button>
+                <button aria-label="Maximize" onclick="notWorking()"></button>
+                <button aria-label="Close" onclick="notWorking()"></button>
+              </div>
+            </div>
+            <div class="window-body">
+              <menu role="tablist">
+                <button aria-selected="true"  aria-controls="about">About me</button>
+                <button aria-controls="projects">Projects</button>
+                <button aria-controls="contact">Contact</button>
+              </menu>
+              <article role="tabpanel" id="about">
+                  <p>Hi, I'm Iván. Here's some informations about me.</p>
+                  <fieldset>
+                    <div class="field-row">
+                        <ul class="tree-view">
+                            <li>
+                                Age
+                                <ul>
+                                    <li>17 years old</li>
+                                </ul>
+                            </li>
+                            <li>
+                              Based
+                              <ul>
+                                  <li>in Hungary</li>
+                              </ul>
+                          </li>
+                            <li>
+                                Hobbies
+                                <ul>
+                                    <li>Hanging with friends</li>
+                                    <li>Going to parties</li>
+                                    <li>Programming silly things</li>
+                                    <li>Gaming with the boys</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Programming languages I know
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS (only the basics)</li>
+                                    <li>C#</li>
+                                </ul>
+                            </li>
+                            
+                    </div>
+                  </fieldset>
+                </article>
+          
+              <article role="tabpanel" hidden id="projects">
+                <p>Error 404: Projects not found!</p>
+                <p>As of right now, I don't have any projects so contact me if you are interested in working with me! You can find my socials at the 'Contact' tab.</p>
+              </article>
+          
+              <article role="tabpanel" hidden id="contact">
+                <p>My contacts.</p>
+                <fieldset>
+                  <div class="field-row">
+                      <ul class="tree-view">
+                          <li>
+                              E-mail
+                              <ul>
+                                  <li>fraterivan03@gmail.com</li>
+                              </ul>
+                          </li>
+                          <li>
+                              Twitter
+                              <ul>
+                                  <li>@fraterivan</li>
+                              </ul>
+                          </li>
+                          <li>
+                            GitHub
+                            <ul>
+                                <li>@fraterivan</li>
+                            </ul>
+                        </li>
+                          <li>
+                            Discord
+                            <ul>
+                                <li>Iván#4880</li>
+                            </ul>
+                        </li>
+                          
+                  </div>
+                </fieldset>
+              </article>
+              
+              <section class="field-row" style="justify-content: flex-end">
+                <button onclick="notWorking()">OK</button>
+                <button onclick="notWorking()">Cancel</button>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <script src="JS/script.js"></script>
+    </body>
+</html>
