@@ -10,13 +10,12 @@
     </head>
 
     <body>
-        <div id="center">
+        <div id="dragDiv">
           <div class="window" style="width: 400px">
             <div class="title-bar">
               <div class="title-bar-text">Welcome to my website!</div>
               <div class="title-bar-controls">
-                <button aria-label="Minimize" onclick="notWorking()"></button>
-                <button aria-label="Maximize" onclick="notWorking()"></button>
+                <button aria-label="Help" onclick="help()"></button>
                 <button aria-label="Close" onclick="notWorking()"></button>
               </div>
             </div>
@@ -34,7 +33,7 @@
                             <li>
                                 Age
                                 <ul>
-                                    <li>17 years old</li>
+                                    <li><span id="calculatedAge">17</span> years old</li>
                                 </ul>
                             </li>
                             <li>
@@ -112,7 +111,8 @@
             </div>
           </div>
         </div>
-
-        <script src="JS/script.js"></script>
     </body>
+
+    <script src="JS/script.js"></script>
+
 </html>
