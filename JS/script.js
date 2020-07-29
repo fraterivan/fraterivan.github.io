@@ -71,18 +71,10 @@ function dragElement(elmnt) {
   }
 }
 
-function notWorking(){
-  window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-}
-
 function help(){
   location.href = "https://fraterivan.tk/about.html";
 }
 
 function xButton(){
   location.href = "https://fraterivan.tk";
-}
-
-function xButtonIndex(){
-  location.href = "https://fraterivan.tk/closed.html"
 }

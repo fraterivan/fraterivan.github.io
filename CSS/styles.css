@@ -1,9 +1,14 @@
-body {
-  background-image: url("/assets/background.jpg"); 
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("/assets/background.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
+  .window {
+    width: 400px;
+  }
+}
 #helpButton {
   cursor: url('/assets/help_m.png'), auto;
 }
