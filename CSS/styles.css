@@ -4,10 +4,18 @@ body {
   background-size: cover;
 }
 
+#helpButton {
+  cursor: url('/assets/help_m.png'), auto;
+}
+
+html, body, button {
+  cursor: url('/assets/arrow_m.png'), auto;
+}
+
 #dragDiv {
   position: absolute;
 }
 
 .title-bar {
-  cursor: move;
+  cursor: url('/assets/move_m.png'), auto;
 }

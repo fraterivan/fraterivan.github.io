@@ -15,8 +15,8 @@
             <div class="title-bar">
               <div class="title-bar-text">Welcome to my website!</div>
               <div class="title-bar-controls">
-                <button aria-label="Help" onclick="help()"></button>
-                <button aria-label="Close" onclick="notWorking()"></button>
+                <button aria-label="Help" onclick="help()" id="helpButton"></button>
+                <button aria-label="Close" onclick="xButtonIndex()"></button>
               </div>
             </div>
             <div class="window-body">
@@ -26,14 +26,20 @@
                 <button aria-controls="contact">Contact</button>
               </menu>
               <article role="tabpanel" id="about">
-                  <p>Hi, I'm Iván. Here's some informations about me.</p>
+                  <p>Some information about me.</p>
                   <fieldset>
                     <div class="field-row">
                         <ul class="tree-view">
                             <li>
+                                Name
+                                  <ul>
+                                <li>Iván Fráter</li>
+                              </ul>
+                            </li>
+                            <li>
                                 Age
                                 <ul>
-                                    <li><span id="calculatedAge">17</span> years old</li>
+                                    <li>17 years old</li>
                                 </ul>
                             </li>
                             <li>
@@ -45,7 +51,7 @@
                             <li>
                                 Hobbies
                                 <ul>
-                                    <li>Hanging with friends</li>
+                                    <li>Hanging with my friends</li>
                                     <li>Going to parties</li>
                                     <li>Programming silly things</li>
                                     <li>Gaming with the boys</li>
@@ -54,10 +60,10 @@
                             <li>
                                 Programming languages I know
                                 <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JS (only the basics)</li>
-                                    <li>C#</li>
+                                  <li>HTML</li>
+                                  <li>CSS</li>
+                                  <li>JavaScript</li>
+                                  <li>C#</li>
                                 </ul>
                             </li>
                             
@@ -99,15 +105,9 @@
                                 <li>Iván#4880</li>
                             </ul>
                         </li>
-                          
                   </div>
                 </fieldset>
               </article>
-              
-              <section class="field-row" style="justify-content: flex-end">
-                <button onclick="notWorking()">OK</button>
-                <button onclick="notWorking()">Cancel</button>
-              </section>
             </div>
           </div>
         </div>
