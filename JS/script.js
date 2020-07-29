@@ -76,13 +76,13 @@ function notWorking(){
 }
 
 function help(){
-  location.href = "about.html";
+  location.href = "https://fraterivan.tk/about.html";
 }
 
 function xButton(){
-  location.href = "index.html";
+  location.href = "https://fraterivan.tk";
 }
 
 function xButtonIndex(){
-  location.href = "closed.html"
+  location.href = "https://fraterivan.tk/closed.html"
 }
